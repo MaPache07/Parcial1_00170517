@@ -38,6 +38,15 @@ li > i {
     padding: 15em 5em;
 }
 
+.maxisuns p {
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.maxisuns i {
+    font-size: 5em;
+}
+
 h1 {
     font-family: 'Monoton', cursive;
     font-size: 10em;
