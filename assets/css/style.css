@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    color: #fff;
 }
 
 .nav {
@@ -40,7 +41,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    margin: 0;
+    padding: 1em 0;
     background: #dbdada
 }
 
@@ -60,11 +61,19 @@ h1 {
 
 .item p {
     margin-bottom: 2em;
+    color: #000;
+}
+
+.item h3 {
+    color: #612e1d;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 0.5em;
 }
 
 .item > div {
-    padding: 2em 0em 3em 0em;
-    align-items: center;
+    padding: 1em 1em 3em 1em;
 }
 
 .item a {
@@ -78,6 +87,7 @@ h1 {
 
 .footer1 {
     background-image: url(../img/contacus.jpg);
+    background-size: 100%; 
     display: flex;
     justify-content: space-around;
     padding: 10em 2em;
@@ -86,10 +96,31 @@ h1 {
 .formulario {
     display: flex;
     flex-direction: column;
+    width: 45%;
     justify-content: space-around;
+}
+
+.formulario > input {
+    border-radius: 0.25em;
+    border: 0;
+}
+
+.formulario > a {
+    text-decoration: none;
+    border-radius: 0.25em;
+    padding: 1em 40%;
+    margin: 10% 0 10% 0;
+    background: orange;
+    color: #fff;
 }
 
 .contact {
     background: rgba(109, 104, 104, 0.801);
     color: #fff;
+    border-radius: 0.75em;
+    width: 45%;
+}
+
+.footer2 {
+    background: #000;
 }
