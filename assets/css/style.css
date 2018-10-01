@@ -4,6 +4,14 @@
     color: #fff;
 }
 
+ul {
+    list-style: none;
+}
+
+li > i {
+    color: #fff;
+}
+
 .nav {
     display: flex;
     justify-content: space-around;
@@ -90,7 +98,7 @@ h1 {
     background-size: 100%; 
     display: flex;
     justify-content: space-around;
-    padding: 10em 2em;
+    padding: 2em 2em;
 }
 
 .formulario {
@@ -119,8 +127,24 @@ h1 {
     color: #fff;
     border-radius: 0.75em;
     width: 45%;
+    padding: 2em;
+}
+
+.contact > h3 {
+    font-size: 2em;
 }
 
 .footer2 {
     background: #000;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+li > p {
+    margin-left: 0.5em;
+}
+
+.social > ul > li {
+    display: flex;
 }
