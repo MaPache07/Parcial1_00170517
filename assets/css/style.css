@@ -58,13 +58,38 @@ h1 {
     background: #f5f5f5;
 }
 
+.item p {
+    margin-bottom: 2em;
+}
+
 .item > div {
-    padding: 0.5em;
+    padding: 2em 0em 3em 0em;
+    align-items: center;
 }
 
 .item a {
-    padding: 0.5em 5em;
-    background: orange;
     text-decoration: none;
+    border-radius: 0.25em;
+    padding: 1em 40%;
+    margin: 10% 0 10% 0;
+    background: orange;
+    color: #fff;
+}
+
+.footer1 {
+    background-image: url(../img/contacus.jpg);
+    display: flex;
+    justify-content: space-around;
+    padding: 10em 2em;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact {
+    background: rgba(109, 104, 104, 0.801);
     color: #fff;
 }
